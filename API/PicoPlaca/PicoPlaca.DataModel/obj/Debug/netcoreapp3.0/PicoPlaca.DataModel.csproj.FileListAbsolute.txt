@@ -1,0 +1,7 @@
+C:\Users\David\Desktop\Estudios\Proyectos\API\PicoPlaca\PicoPlaca.DataModel\bin\Debug\netcoreapp3.0\PicoPlaca.DataModel.deps.json
+C:\Users\David\Desktop\Estudios\Proyectos\API\PicoPlaca\PicoPlaca.DataModel\bin\Debug\netcoreapp3.0\PicoPlaca.DataModel.dll
+C:\Users\David\Desktop\Estudios\Proyectos\API\PicoPlaca\PicoPlaca.DataModel\bin\Debug\netcoreapp3.0\PicoPlaca.DataModel.pdb
+C:\Users\David\Desktop\Estudios\Proyectos\API\PicoPlaca\PicoPlaca.DataModel\obj\Debug\netcoreapp3.0\PicoPlaca.DataModel.AssemblyInfoInputs.cache
+C:\Users\David\Desktop\Estudios\Proyectos\API\PicoPlaca\PicoPlaca.DataModel\obj\Debug\netcoreapp3.0\PicoPlaca.DataModel.AssemblyInfo.cs
+C:\Users\David\Desktop\Estudios\Proyectos\API\PicoPlaca\PicoPlaca.DataModel\obj\Debug\netcoreapp3.0\PicoPlaca.DataModel.dll
+C:\Users\David\Desktop\Estudios\Proyectos\API\PicoPlaca\PicoPlaca.DataModel\obj\Debug\netcoreapp3.0\PicoPlaca.DataModel.pdb

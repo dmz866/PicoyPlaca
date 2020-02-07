@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicoPlaca", "PicoPlaca\PicoPlaca.csproj", "{917159A9-30DC-45D8-9CF7-6A1D2112C62C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PicoPlaca.DataModel", "PicoPlaca.DataModel\PicoPlaca.DataModel.csproj", "{ECFEEC5E-B483-4DBA-A1DD-514F95380DBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{917159A9-30DC-45D8-9CF7-6A1D2112C62C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{917159A9-30DC-45D8-9CF7-6A1D2112C62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{917159A9-30DC-45D8-9CF7-6A1D2112C62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{917159A9-30DC-45D8-9CF7-6A1D2112C62C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECFEEC5E-B483-4DBA-A1DD-514F95380DBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECFEEC5E-B483-4DBA-A1DD-514F95380DBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECFEEC5E-B483-4DBA-A1DD-514F95380DBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECFEEC5E-B483-4DBA-A1DD-514F95380DBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6000689-BDAB-4764-871D-BC2A3771E274}
+	EndGlobalSection
+EndGlobal
