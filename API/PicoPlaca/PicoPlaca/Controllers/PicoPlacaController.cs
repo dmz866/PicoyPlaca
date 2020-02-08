@@ -6,7 +6,6 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PicoPlaca.DataModel;
 using Microsoft.AspNetCore.Authorization;
-using PicoPlaca.DataModel.CheckPicoPlaca;
 
 namespace PicoPlaca.Controllers
 {

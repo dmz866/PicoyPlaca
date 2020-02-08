@@ -16,23 +16,27 @@ export class PicoPlacaComponent {
   constructor(private pp: PicoPlacaService) { }
 
   revisarPlaca() {
-    let fecha1: Date;
-
     if (!this.validForm()) {
-      this.errorMessage = 'Ingrese todos los datos';
-    }
-
-    if (Number.isNaN(Date.parse(this.model.fechaStr))) {
-      this.errorMessage = 'Fecha invalida';
       return;
     }
 
-    fecha1 = new Date(Date.parse(this.model.fechaStr));
+    let fecha1 = new Date(Date.parse(this.model.fechaStr));
     this.model.fecha = new Date(fecha1.getFullYear(), fecha1.getMonth(), fecha1.getDate(), this.model.hora, 0, 0);
     this.pp.checkPicoPlaca(this.model);
   }
 
   validForm(): boolean {
-    return (isNullOrUndefined(this.model.fechaStr) || isNullOrUndefined(this.model.hora));
+    let val = true;
+
+    if (isNullOrUndefined(this.model.fechaStr) || isNullOrUndefined(this.model.hora)) {
+      this.errorMessage = 'Ingrese todos los datos';
+      val = false;
+    }
+    else if (Number.isNaN(Date.parse(this.model.fechaStr))) {
+      this.errorMessage = 'Fecha invalida';
+      val = false;
+    }
+
+    return val;
   }
 }
