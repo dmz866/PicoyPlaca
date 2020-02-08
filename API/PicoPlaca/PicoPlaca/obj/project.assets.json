@@ -8058,11 +8058,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\David\\Desktop\\Estudios\\Proyectos\\API\\PicoPlaca\\PicoPlaca\\PicoPlaca.csproj",
+      "projectUniqueName": "C:\\Users\\David\\Desktop\\Estudios\\Proyectos\\picoyplaca\\API\\PicoPlaca\\PicoPlaca\\PicoPlaca.csproj",
       "projectName": "PicoPlaca",
-      "projectPath": "C:\\Users\\David\\Desktop\\Estudios\\Proyectos\\API\\PicoPlaca\\PicoPlaca\\PicoPlaca.csproj",
+      "projectPath": "C:\\Users\\David\\Desktop\\Estudios\\Proyectos\\picoyplaca\\API\\PicoPlaca\\PicoPlaca\\PicoPlaca.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\David\\Desktop\\Estudios\\Proyectos\\API\\PicoPlaca\\PicoPlaca\\obj\\",
+      "outputPath": "C:\\Users\\David\\Desktop\\Estudios\\Proyectos\\picoyplaca\\API\\PicoPlaca\\PicoPlaca\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8081,8 +8081,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\David\\Desktop\\Estudios\\Proyectos\\API\\PicoPlaca\\PicoPlaca.DataModel\\PicoPlaca.DataModel.csproj": {
-              "projectPath": "C:\\Users\\David\\Desktop\\Estudios\\Proyectos\\API\\PicoPlaca\\PicoPlaca.DataModel\\PicoPlaca.DataModel.csproj"
+            "C:\\Users\\David\\Desktop\\Estudios\\Proyectos\\picoyplaca\\API\\PicoPlaca\\PicoPlaca.DataModel\\PicoPlaca.DataModel.csproj": {
+              "projectPath": "C:\\Users\\David\\Desktop\\Estudios\\Proyectos\\picoyplaca\\API\\PicoPlaca\\PicoPlaca.DataModel\\PicoPlaca.DataModel.csproj"
             }
           }
         }

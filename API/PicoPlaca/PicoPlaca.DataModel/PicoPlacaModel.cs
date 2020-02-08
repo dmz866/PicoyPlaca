@@ -8,6 +8,5 @@ namespace PicoPlaca.DataModel
     {
         public string Placa { get; set; }
         public DateTime Fecha { get; set; }
-        public DateTime Hora { get; set; }
     }
 }

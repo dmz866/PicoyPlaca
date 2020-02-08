@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\David\\Desktop\\Estudios\\Proyectos\\API\\PicoPlaca\\PicoPlaca.DataModel\\PicoPlaca.DataModel.csproj",
+      "projectUniqueName": "C:\\Users\\David\\Desktop\\Estudios\\Proyectos\\picoyplaca\\API\\PicoPlaca\\PicoPlaca.DataModel\\PicoPlaca.DataModel.csproj",
       "projectName": "PicoPlaca.DataModel",
-      "projectPath": "C:\\Users\\David\\Desktop\\Estudios\\Proyectos\\API\\PicoPlaca\\PicoPlaca.DataModel\\PicoPlaca.DataModel.csproj",
+      "projectPath": "C:\\Users\\David\\Desktop\\Estudios\\Proyectos\\picoyplaca\\API\\PicoPlaca\\PicoPlaca.DataModel\\PicoPlaca.DataModel.csproj",
       "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\David\\Desktop\\Estudios\\Proyectos\\API\\PicoPlaca\\PicoPlaca.DataModel\\obj\\",
+      "outputPath": "C:\\Users\\David\\Desktop\\Estudios\\Proyectos\\picoyplaca\\API\\PicoPlaca\\PicoPlaca.DataModel\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
