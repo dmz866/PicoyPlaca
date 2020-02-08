@@ -17,6 +17,9 @@
                             </div>
                         </div>
                         <form action="">
+                            <div *ngIf="result" class="alert alert-success" role="alert">
+                                {{result}}
+                            </div>
                             <div *ngIf="errorMessage" class="alert alert-danger" role="alert">
                                 {{errorMessage}}
                             </div>

@@ -11,6 +11,7 @@ import { isNull, isNullOrUndefined } from 'util';
 })
 export class PicoPlacaComponent {
   model: PicoPlacaModel = new PicoPlacaModel();
+  result: string;
   errorMessage: string;
 
   constructor(private pp: PicoPlacaService) { }
@@ -20,9 +21,15 @@ export class PicoPlacaComponent {
       return;
     }
 
-    let fecha1 = new Date(Date.parse(this.model.fechaStr));
+    const fecha1 = new Date(Date.parse(this.model.fechaStr));
     this.model.fecha = new Date(fecha1.getFullYear(), fecha1.getMonth(), fecha1.getDate(), this.model.hora, 0, 0);
-    this.pp.checkPicoPlaca(this.model);
+    this.pp.checkPicoPlaca(this.model).subscribe(val =>
+    {
+      this.result = val.toString();
+    }, error =>
+    {
+      this.errorMessage = error.message;
+    });
   }
 
   validForm(): boolean {

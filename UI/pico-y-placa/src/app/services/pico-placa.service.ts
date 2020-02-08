@@ -14,13 +14,6 @@ export class PicoPlacaService {
     .set('placa', model.placa)
     .set('fecha', model.fecha.toString());
 
-    return this.http.get(`${ Constants.BASE_API_URL}checkPicoPlaca/`, {params: params})
-    .subscribe(val =>
-    {
-      console.log(val);
-    }, error =>
-    {
-      console.log(error);
-    });
+    return this.http.get(`${ Constants.BASE_API_URL}checkPicoPlaca/`, {params: params});
   }
 }
