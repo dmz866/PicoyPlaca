@@ -26,8 +26,14 @@ namespace PicoPlaca.DataModel
         {
             string result = string.Empty;
             PicoPlacaReglasModel res = new PicoPlacaReglasModel();
-            
-            if (picoPlacaRulesList.Exists(p => p.dia.Equals(ppModel.dia) && p.numero.Equals(ppModel.numero)))
+            double fecha7am = ppModel.fecha.AddHours(7).TimeOfDay.TotalMinutes;
+            double fecha930am = ppModel.fecha.AddHours(9).AddMinutes(30).TimeOfDay.TotalMinutes;
+            double fecha16am = ppModel.fecha.AddHours(16).TimeOfDay.TotalMinutes;
+            double fecha1930am = ppModel.fecha.AddHours(19).AddMinutes(30).TimeOfDay.TotalMinutes;
+
+            if (picoPlacaRulesList.Exists(p => p.dia.Equals(ppModel.dia) && p.numero.Equals(ppModel.numero) && 
+            ((ppModel.fecha.TimeOfDay.TotalMinutes >= fecha7am && ppModel.fecha.TimeOfDay.TotalMinutes <= fecha930am) || 
+            (ppModel.fecha.TimeOfDay.TotalMinutes >= fecha16am && ppModel.fecha.TimeOfDay.TotalMinutes <= fecha1930am))))
             {
                 result = "No puede circular";
             }

@@ -23,7 +23,7 @@ namespace PicoPlaca.Controllers
                 string result = string.Empty;
 
                 CheckPicoPlaca pp = new CheckPicoPlaca();
-                PicoPlacaReglasModel ppModel = new PicoPlacaReglasModel((DayOfWeek) fechaNum, ultimoNum);
+                PicoPlacaReglasModel ppModel = new PicoPlacaReglasModel((DayOfWeek) fechaNum, picoPlaca.Fecha, ultimoNum);
                 result = pp.checkPlaca(ppModel);
                 return Ok(result);
             }
